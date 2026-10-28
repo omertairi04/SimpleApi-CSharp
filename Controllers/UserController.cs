@@ -48,12 +48,13 @@ public class UserController : ControllerBase
 
     // POST: api/user
     [HttpPost]
-    public IActionResult Create(User user)
+    public IActionResult Create(User u)
     {
-        user.Id = users.Count + 1;
-        users.Add(user);
+        u.Id = users.Count + 1;
+        u.username += "---"
+        users.Add(u);
 
-        return Ok(user);
+        return Ok(u);
     }
 
     // PUT: api/user/1
