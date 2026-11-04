@@ -51,7 +51,7 @@ public class UserController : ControllerBase
     public IActionResult Create(User u)
     {
         u.Id = users.Count + 1;
-        u.username += "---"
+        u.Username += "---";
         users.Add(u);
 
         return Ok(u);

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "71pa45XS7uA=",
-  "success": true,
+  "dgSpecHash": "GqLJhHnRDSI=",
+  "success": false,
   "projectFilePath": "C:\\Users\\edushkup\\SimpleApi-CSharp\\SimpleApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edushkup\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -17,18 +17,12 @@
     "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.14\\microsoft.entityframeworkcore.analyzers.10.0.14.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.entityframeworkcore.design\\10.0.14\\microsoft.entityframeworkcore.design.10.0.14.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.14\\microsoft.entityframeworkcore.relational.10.0.14.nupkg.sha512",
-    "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.extensions.dependencymodel\\10.0.14\\microsoft.extensions.dependencymodel.10.0.14.nupkg.sha512",
-    "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\microsoft.visualstudio.solutionpersistence\\1.0.52\\microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.3\\npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
-    "C:\\Users\\edushkup\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "C:\\Users\\edushkup\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
-    "C:\\Users\\edushkup\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\edushkup\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\system.composition\\9.0.0\\system.composition.9.0.0.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\system.composition.attributedmodel\\9.0.0\\system.composition.attributedmodel.9.0.0.nupkg.sha512",
@@ -37,5 +31,17 @@
     "C:\\Users\\edushkup\\.nuget\\packages\\system.composition.runtime\\9.0.0\\system.composition.runtime.9.0.0.nupkg.sha512",
     "C:\\Users\\edushkup\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package SwashKbuckle.AspNetCore. No packages exist with this id in source(s): nuget.org",
+      "projectPath": "C:\\Users\\edushkup\\SimpleApi-CSharp\\SimpleApi.csproj",
+      "filePath": "C:\\Users\\edushkup\\SimpleApi-CSharp\\SimpleApi.csproj",
+      "libraryId": "SwashKbuckle.AspNetCore",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
